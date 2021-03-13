@@ -1,4 +1,5 @@
 import React from "react";
+import "./message.css";
 
 class Message extends React.Component {
   constructor(props) {
@@ -10,13 +11,13 @@ class Message extends React.Component {
         <h2>Your Request</h2>
         <p>
           {" "}
-          <span style={{ color: "blue" }}> Name : </span> {this.props.firstname}{" "}
+          <span> Name : </span> {this.props.firstname}{" "}
           {this.props.surname}
         </p>
         {this.props.email && (
           <p>
             {" "}
-            <span style={{ color: "blue" }}> Email : </span> {this.props.email}{" "}
+            <span> Email : </span> {this.props.email}{" "}
           </p>
         )}
       </div>

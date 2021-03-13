@@ -1,0 +1,11 @@
+p {
+  margin-top: 1rem;
+}
+
+span {
+  color: blue;
+}
+
+p:hover {
+  transform: scale(1.1);
+}
