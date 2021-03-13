@@ -1,0 +1,17 @@
+h1, p {
+  font-family: Lato;
+}
+
+.formGroup{
+  padding:5%;
+  width:50%;
+}
+
+.display{
+  display:flex;
+  width:50%;
+  padding:10%;
+  margin-right:5%;
+  float:right;
+  font-size:3.5vw;
+}
