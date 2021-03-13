@@ -8,6 +8,7 @@ class Message extends React.Component {
   render() {
     return (
       <div className="fullMessage">
+      <h2> Your Request</h2>
        <p> {this.props.email} </p>
       </div>
     );
